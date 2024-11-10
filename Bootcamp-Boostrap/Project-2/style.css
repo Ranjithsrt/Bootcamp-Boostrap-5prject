@@ -1,0 +1,120 @@
+/* Header Nav - | Anchor Tag | */
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* Header logo */
+
+header > div > div img {
+  width: 150px;
+}
+
+/*  Header Banner */
+
+.Top-Banner > div > h3,
+span {
+  font-weight: 800;
+}
+
+/*  IPFS */
+
+.IPFS > h3 {
+  font-weight: 800;
+}
+
+/*  IPFS 3items */
+
+.IPFS > div h3 {
+  color: #651fff;
+  font-weight: 800;
+}
+
+.IPFS > div > div > div:nth-child(1) {
+  background-color: #ececfe;
+  color: #651fff;
+}
+
+.IPFS > div > div > div:nth-child(2) {
+  background-color: #ececfe;
+  color: #651fff;
+}
+
+.IPFS > div > div > div:nth-child(3) {
+  background-color: #ececfe;
+  color: #651fff;
+}
+
+/* IPFS storage  */
+
+.IPFS-storage > div h3 {
+  color: #651fff;
+  font-weight: 800;
+}
+
+/* File-Sharing */
+
+.File-Sharing > div > div > div:nth-child(1) {
+  background-color: #e0f7fa;
+}
+
+.File-Sharing > div > div > div:nth-child(2) {
+  background-color: #e0f7fa;
+}
+
+/* IPFS-works */
+
+.IPFS-works > div > div {
+  background-image: linear-gradient(#f2eeeb 0%, #ececfe 100%);
+}
+
+/* Pricing Plan  */
+
+.Pricing-Plan-A {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.Pricing-Plan-A ul {
+  list-style-type: none;
+}
+
+.Pricing-Plan-A img {
+  padding: 5px;
+}
+
+/* Pricing-Plan-items */
+
+/* media queries */
+
+@media screen and (min-width: 576px) {
+  .line-png {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(90deg);
+
+    margin: 50px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .line-png {
+    display: flex;
+    transform: rotate(360deg);
+    justify-content: center;
+    margin-bottom: 300px;
+  }
+
+  /* .Pricing-Plan-items>div>div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #651fff;
+} */
+}

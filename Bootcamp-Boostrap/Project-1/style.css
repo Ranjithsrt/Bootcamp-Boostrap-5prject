@@ -1,0 +1,55 @@
+/* <!-- footer --> */
+
+.Products,
+h4,
+h6 {
+  font-size: smaller;
+}
+
+.Resource,
+h4,
+h6 {
+  font-size: smaller;
+}
+
+.Community,
+h4,
+h6 {
+  font-size: smaller;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ul li {
+  font-size: 10px;
+  padding: 5px;
+  justify-content: baseline;
+  text-align: justify;
+}
+
+/* media queries */
+
+@media screen and (min-width: 576px) {
+  .line-png {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(90deg);
+
+    margin: 50px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .line-png {
+    display: flex;
+    transform: rotate(360deg);
+    justify-content: center;
+    margin-bottom: 300px;
+  }
+}

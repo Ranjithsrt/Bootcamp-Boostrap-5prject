@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap CDN-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--External link-->
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <section>
+            <!--Header logo -->
+            <div class="container-fluid">
+                <div
+                    class="col-12 text-center mt-2 col-sm-12 text-sm-center mt-sm-2 col-md-12  d-md-flex justify-content-md-between align-items-md-center mt-md-3 ">
+                    <img src="./File-img/logo-color 1.png" width="150px" class="img-fluid">
+                    <!--Header menu -->
+                    <nav class="mt-sm-3 mt-3">
+                        <button class="mx-2 px-2 rounded-1"><a href="#"></a>Sign In</button>
+                        <a href="#"
+                            class="text-decoration-none rounded-1 bg-primary p-2 border-0 text-white px-2">Create an
+                            account</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Header Banner -->
+
+    <section class="Top-Banner mt-5" style="width: 100%; height: 800px; background-color: #E0F7FA;">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center mt-5">
+                    <!-- Header Banner Image-->
+                    <img src="./File-img/Frame.png" class="img-fluid mt-5" style="width: 35%;">
+                    <h3 class="mt-5        .Hf3">Start pin new data on <span
+                            style="color: rgb(122, 53, 187);">IPFS</span> with Deupload</h3>
+                    <p class="mt-3">Files uploaded to an IPFS bucket on Deupload are automatically pinned to IPFS and
+                        stored with 3x
+                        replication across the
+                        Deupload infrastructure by default, at no extra cost to you.</p>
+                    <!-- Header Banner Nav-->
+                    <div class="mt-3 d-md-flex justify-content-md-baseline ">
+                        <a href="#" class="rounded-1 bg-primary p-1 me-3 text-decoration-none text-white">Getting
+                            Started</a>
+                        <button class=" rounded-1 "><a href="#"
+                                class="text-dark p-1 text-decoration-none p-2 ">Documentation</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why pin IPFS   -->
+
+    <section>
+        <div class="container" style="margin-top: 150px; margin-bottom: 100px;">
+            <div class="row">
+                <div
+                    class="col-md-5 col-md-start  col-lg-5 text-md-start text-center col-sm-12 col-12 text-center-sm  d-md-flex flex-md-column justify-content-md-center ">
+                    <h3 class="fw-bold">Why pin your data on </h3>
+                    <h3 class="fw-bold">IPFS with Deupload?</h3>
+                    <p class="mt-2">IPFS pinning can be configured on locally hosted IPFS nodes, but for external,
+                        long-term storage,
+                        so that's why DeUpload
+                        exists as an IPFS pinning service.</p>
+                    <p class="mt-3">With Deupload you get all the benefits of decentralized storage and other
+                        cutting-edge protocols
+                        with the frictionless
+                        experience you expect in a modern dev workflow. Check out our docs pages to learn more.</p>
+                    <div class="mt-5">
+                        <button class=" rounded-1  "><a href="#" class="text-dark p-1 text-decoration-none p-2 ">Read
+                                Docs</a></button>
+                    </div>
+                </div>
+                <!-- storage right side -->
+
+                <div class="col-md-6  col-sm-12">
+                    <div class="row  d-sm-flex justify-content-sm-center  text-sm-center  text-md-start ">
+                        <div class="col-3 mt-4 ">
+                            <img src="./File-img/Ellipse 30.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 mt-3" style="background-color: white;">
+                            <h4 class="">Private by design</h4>
+                            <p style="color: #838696;">We believe data privacy is a human right, which is why Deupload
+                                is
+                                built on a
+                                decentralized architecture
+                                that makes data
+                                breaches a thing of the past.</p>
+                        </div>
+                    </div>
+                    <div class="row d-sm-flex justify-content-sm-center  text-sm-center  text-md-start ">
+                        <div class="col-3 mt-4">
+                            <img src="./File-img/Ellipse 33.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12  pt-2">
+                            <h4 class="text-center-sm">Distributed network</h4>
+                            <p style="color: #838696;">An object is never in one place. Data is split into 80 pieces,
+                                and
+                                distributed to uncorrelated Nodes. When you call for
+                                the data, it’s automatically reconstituted in an instant.</p>
+                        </div>
+                    </div>
+                    <div class="row d-sm-flex justify-content-sm-center  text-sm-center  text-md-start  ">
+                        <div class="col-3 mt-4">
+                            <img src="./File-img/Ellipse 33.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 ">
+                            <h4 class="">Worldwide availability</h4>
+                            <p style="color: #838696;">Data is stored on Nodes that are selected by reputation and local
+                                latency. The fastest Nodes from this set are chosen to
+                                store pieces, ensuring quick access to your data.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- What is IPFS Pinning? -->
+
+    <section>
+        <div class="container mt-5 p-5" style="background-color: #ffffffbc; margin-bottom: 100px;">
+            <div class="row ">
+                <div class=" col-sm-12  text-sm-center col-md-6  d d-md-flex justify-content-md-center">
+                    <img src="./File-img/Earth-Frame.png" width="70%" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-12 text-sm-center text-md-start">
+                    <h3 class="fw-bold mt-3">What is IPFS Pinning?</h3>
+                    <p>IPFS pinning refers to the process of specifying data to be retained and persist on one or more
+                        IPFS nodes. Pinning
+                        assures that data is accessible indefinitely, and will not be removed during the IPFS garbage
+                        collection process.</p>
+                    <p>IPFS pinning refers to the process of specifying data to be retained and persist on one or more
+                        IPFS nodes. Pinning
+                        assures that data is accessible indefinitely, and will not be removed during the IPFS garbage
+                        collection process.</p>
+                    <p>IPFS pinning refers to the process of specifying data to be retained and persist on one or more
+                        IPFS nodes. Pinning
+                        assures that data is accessible indefinitely, and will not be removed during the IPFS garbage
+                        collection process.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Deupload work?-->
+
+    <section>
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="fw-bold mt-5">How does Deupload work?</h3>
+                    <p>IPFS pinning refers to the process of specifying data to be retained <br>
+                        and persist on one or more IPFS nodes. Pinning assures that data isr <br>
+                        accessible indefinitely,assures that data is accessible indefinitely,<br>
+                        and will not be removed during the IPFS garbage collection process.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mt-4 p-3" style="background-color: #ffffffaf;   order: 2;">
+                        <h3>About IPFS</h3>
+                        <p>IPFS offers content addressing - enabling developers to create immutable links to their
+                            content, and flexibility for
+                            developers in how they’d like to retrieve their data.</p>
+
+                        <h3 class="mt-3  p-3">About Sia</h3>
+                        <p>IPFS offers content addressing - enabling developers to create immutable links to their
+                            content, and flexibility
+                            for
+                            developers in how they’d like to retrieve their data.</p>
+                    </div>
+
+                    <div class="col-md-6 d-md-flex justify-content-md-center align-items-md-center "
+                        style="order: 1; margin-bottom: 150px;">
+                        <img src="./File-img/Work- Frame.png" width="50%" class="img-fluid mt-5 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Deupload items  -->
+
+    <section class="Deupload-items">
+        <div class="container mt-5 p-4 p-md-5" style="background-color: #fff9d9d3; position: relative;">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-6 col-12 p-3 text-dark">
+                    <img src="./File-img/Ellipse 30.png" class="mb-3">
+                    <h3>Create an account</h3>
+                    <p class="fw-bold">Create a Deupload account and start uploading your files to IPFS.</p>
+                </div>
+                <!-- Right Column -->
+                <div class="col-md-6 col-12">
+                    <h3 class="text-primary">Get started in a few steps</h3>
+                    <p>Deupload offers a simple interface that allows users and developers to take advantage of
+                        decentralized storage provided by the Sia network with IPFS protocol.</p>
+                </div>
+                <!-- Centered Content Column (Positioned in larger screens) -->
+                <div class="col-md-12 p-3 text-dark mb-3"
+                    style="position: relative; left: 50%; transform: translateX(-50%);">
+                    <img src="./File-img/Ellipse 30.png" class="mb-3 m-sm-0">
+                    <h3>Create an account</h3>
+                    <p>Create a Deupload account and start uploading your files to IPFS.</p>
+                </div>
+                <!-- Another Column with Offset for Larger Screens -->
+                <div class="col-lg-6 col-md-8 col-12 p-3 text-dark mb-3" style="margin-left: auto; margin-right: auto;">
+                    <img src="./File-img/Ellipse 30.png" class="mb-3">
+                    <h3>Create an account</h3>
+                    <p>Create a Deupload account and start uploading your files to IPFS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Deuload platform -->
+
+    <section>
+
+        <div class="container " style="margin-top: 50px;">
+            <div>
+                <h3 class="mt-3">What is meant by the “Deuload platform”?</h3>
+                <p class="mt-3">Deupload is provide suite of APIs and services that make it easy for developers and
+                    other users to
+                    interact with data in
+                    a way that is not tied to where the data is actually physically stored. It natively uses
+                    decentralized data and identity
+                    protocols like IPFS, Filecoin, and UCAN that enable verifiable, data- and user-centric application
+                    architectures and
+                    workflows.</p>
+            </div>
+        </div>
+
+        <div class="container  mt-5 p-5" style="background-color: rgba(128, 128, 128, 0.173); margin-bottom: 150px;">
+            <div class="row">
+                <div class="col-md-1 col-12 mb-3">
+
+                    <img src="./File-img/circle-question 2.png" alt="">
+                </div>
+                <div class="col-md-5 col-12 mt-3">
+                    <h3>What advantages does Deupload have over traditional hosted storage services?</h3>
+                    <p>Because Deupload uses decentralized data and identity protocols like IPFS and UCAN, data and
+                        identity are referenced in an open way. Data is referenced using IPFS content identifiers that
+                        are unique to the data, making your data completely portable - accessible from anywhere
+                        broadcasting data to the IPFS network, whether on a local or peer device, or uploaded to
+                        Deupload itself. Data is backed up on Filecoin, which gives cryptographic proof that your data
+                        is physically being stored without needing to trust Deupload.</p>
+                </div>
+
+                <div class="col-md-1 col-12 mb-3 mt-5">
+                    <img src="./File-img/circle-question 2.png" alt="">
+                </div>
+                <div class="col-md-5 col-12 mt-3">
+                    <h3>What advantages does Deupload have over traditional hosted storage services?</h3>
+                    <p>Because Deupload uses decentralized data and identity protocols like IPFS and UCAN, data and
+                        identity are
+                        referenced in an open way. Data is referenced using IPFS content identifiers that are unique
+                        to the data, making
+                        your data completely portable - accessible from anywhere broadcasting data to the IPFS
+                        network, whether on a
+                        local or peer device, or uploaded to Deupload itself. Data is backed up on Filecoin, which
+                        gives cryptographic
+                        proof that your data is physically being stored without needing to trust Deupload.</p>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!-- Bottom Banner -->
+
+    <section class="Deupload-items">
+        <div class="container mt-5 p-4 p-md-5" style="background-color: #fff9d9d3; position: relative;">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-6 col-12 p-3 text-dark">
+                    <img src="./File-img/Ellipse 30.png" class="mb-3">
+                    <h3>Create an account</h3>
+                    <p class="fw-bold">Create a Deupload account and start uploading your files to IPFS.</p>
+                </div>
+                <!-- Right Column -->
+                <div class="col-md-6 col-12">
+                    <h3 class="text-primary">Get started in a few steps</h3>
+                    <p>Deupload offers a simple interface that allows users and developers to take advantage of
+                        decentralized storage provided by the Sia network with IPFS protocol.</p>
+                </div>
+                <!-- Centered Content Column (Positioned in larger screens) -->
+                <div class="col-md-12 p-3 text-dark mb-3"
+                    style="position: relative; left: 50%; transform: translateX(-50%);">
+                    <img src="./File-img/Ellipse 30.png" class="mb-3 m-sm-0">
+                    <h3>Create an account</h3>
+                    <p>Create a Deupload account and start uploading your files to IPFS.</p>
+                </div>
+                <!-- Another Column with Offset for Larger Screens -->
+                <div class="col-lg-6 col-md-8 col-12 p-3 text-dark mb-3" style="margin-left: auto; margin-right: auto;">
+                    <img src="./File-img/Ellipse 30.png" class="mb-3">
+                    <h3>Create an account</h3>
+                    <p>Create a Deupload account and start uploading your files to IPFS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Create an account -->
+
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4 p-4 bg-success rounded-2">
+                    <img src="./File-img/Ellipse 8.png" width="50px" class="mb-3">
+                    <h3 style="font-size:medium; margin: 5px 0;;">Are you individual?</h3>
+                    <p style="font-size:small;">Syncing, backing up, and sharing your photos, videos and documents in
+                        total
+                        privacy couldn’t be
+                        easier.</p>
+                    <span style="font-size:smaller;"><a href="">Start now <img src="./File-img/arrow-right-long 1.png"
+                                alt=""></a></span>
+                </div>
+                <div class="col-8 d-flex justify-content-between align-items-center p-4 rounded-2"
+                    style="background-color: #ECECFE;">
+                    <div class="col-6">
+                        <img src="./File-img/Ellipse 9.png" width="50px" class="mb-3">
+                        <h3 style="font-size:medium; margin: 5px 0;">Are you business?</h3>
+                        <p style="font-size: small;">Work efficiently with teammates and clients, stay in sync on
+                            projects, and
+                            keep company data safe—all
+                            in
+                            one place on
+                            decentralized network.</p>
+                        <span style="font-size:smaller;"><a href="">See pricing<img src="./File-img/Vector.png"
+                                    alt=""></a></span>
+                    </div>
+                    <div class="col-4">
+                        <img src="./File-img/B-Frame.png" class="img-fluid" width="80%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <section class="container-fluid p-5 mt-5" style="background-color: #1A284E; color: white;">
+        <div class="row">
+            <div class="col-md-4  col-sm-12 text-sm-center text-md-start  m-sm-0  mx-md-5">
+                <h5 class="mb-5 " style="font-size: small;">What is Deupload?</h5>
+                <p style="font-size: small;">Deupload is a cloud storage services based on Blockchain and Web3
+                    technology,
+                    designed to help teams
+                    collaborate and
+                    file sharing in a completely private like never before.</p>
+                <div class="col-lg-4  mt-5 mb-5">
+                    <img src="./File-img/Secure badge.png" width="250px">
+                </div>
+            </div>
+            <div class="col-4     col-md-2 col-sm-4">
+                <h4 class="mb-5 ">Products</h4>
+                <h6>Features</h6>
+                <h6>Solutions</h6>
+                <h6>Pricing</h6>
+                <h6>Token</h6>
+                <h6>Security</h6>
+                <h6>Comparison</h6>
+            </div>
+            <div class="col-4  col-md-2 col-sm-4">
+                <h4 class="mb-5">Resource</h4>
+                <h6>Features</h6>
+                <h6>Solutions</h6>
+                <h6>Pricing</h6>
+                <h6>Token</h6>
+                <h6>Security</h6>
+                <h6>Comparison</h6>
+            </div>
+            <div class="col-4    col-md-2  col-4 Community">
+                <h4 class="mb-5">Community</h4>
+                <h6>Features</h6>
+                <h6>Solutions</h6>
+                <h6>Pricing</h6>
+                <h6>Token</h6>
+                <h6>Security</h6>
+                <h6>Comparison</h6>
+            </div>
+            <div class="row">
+                <div class=" mt-5  col-md-12 mt-md-5  mt-sm-5 d-flex justify-content-between align-items-center">
+                    <span style="font-size: small;">© 2022 Deupload. Powered by Conikal LLC</span>
+                    <img src="./File-img/Social icons.png" width="150px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Bootstrap js CDN-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+ 
